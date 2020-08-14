@@ -1,0 +1,10 @@
+version: '3'
+services:
+  nltk:
+    build:
+      context: ./docker
+    image: image-nltk
+    container_name: container-nltk
+    volumes:
+      - ./src:/src
+    tty: true
