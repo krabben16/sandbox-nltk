@@ -1,5 +1,3 @@
-# test-nltk
-
 ```shell
 docker-compose up -d
 docker-compose exec nltk sh
